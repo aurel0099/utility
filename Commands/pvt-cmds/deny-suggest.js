@@ -3,7 +3,7 @@ const Discord = require("discord.js");
 module.exports = {
   name: "unaccept",
   run: async (client, message, args) => {
-    if (message.author.id !== "546631496673394688") return;
+    if (message.author.id !== "755566952449310842") return;
 
     const messageID = args[0];
     const acceptQuery = args.slice(1).join(" ");
