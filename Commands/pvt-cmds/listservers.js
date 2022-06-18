@@ -3,7 +3,7 @@ const Discord = require("discord.js");
 module.exports = {
   name: "listservers",
   run: async (client, message, args) => {
-    if (message.author.id !== "546631496673394688") return;
+    if (message.author.id !== "755566952449310842") return;
     let i0 = 0;
     let i1 = 10;
     let page = 1;
