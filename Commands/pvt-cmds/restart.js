@@ -6,7 +6,7 @@ module.exports = {
   name: "restart",
   description: "**ONLY DEVELOPER**",
   run: async (client, message, args) => {
-    if (message.author.id !== "546631496673394688")
+    if (message.author.id !== "755566952449310842")
       return message.channel.send(
         `This command can only be used by Developers, Current Devs are: BiizoNinja#6969`
       );
