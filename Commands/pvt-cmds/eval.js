@@ -9,7 +9,7 @@ module.exports = {
     const evalcommand = args.slice(0).join(" ");
     const { inspect } = require("util");
 
-    if (message.author.id !== "546631496673394688")
+    if (message.author.id !== "755566952449310842")
       return message.channel.send(
         `This command can only be used by Developers, Current Devs are: BiizoNinja#9999`
       );
